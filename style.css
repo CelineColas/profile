@@ -69,7 +69,7 @@ ul a:hover {
 }
 
 .btn-special{
-  background-color: #517cd1 ;
+  background-color: #517cd1;
   border:1px solid #517cd1 ;
   border-radius: 4px;
   color:white;
@@ -79,4 +79,29 @@ ul a:hover {
 #profile-img{
   width: 200px;
   border-radius: 50%;
+}
+
+#sidebar {
+  background-color:#384047;
+  color:black;
+  position: fixed;
+  width: 100px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+
+#sidebar li{
+  padding-left: 0px;
+  display:block;
+}
+
+#sidebar i {
+  margin-top:30px;
+  margin-bottom:30px;
+  font-size: 25px;
+}
+
+#page-content {
+  margin-left: 150px;
 }
